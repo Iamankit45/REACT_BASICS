@@ -69,15 +69,7 @@ const img4="https://picsum.photos/280/300";
 ReactDOM.render(
   <>
   <h2 className="heading1">{`current date is ${curdate}`}</h2>
-  <h3 style={{
-color:"rgb(255, 0, 0)",
-textAlign:"center",
-margin:"50px",
-fontFamily: "'Dancing Script', cursive"
-
-
-
-}}>{`current time is ${curtime}`}</h3>
+  <h3 style={heading2}>{`current time is ${curtime}`}</h3>
 
   <div className="img_sec">
  <img src={img1} alt="random images"/>
