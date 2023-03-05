@@ -38,6 +38,26 @@ import "./index.css";
 
 //finding current date and time 
 
+// .heading1{
+
+//   color:rgb(255, 0, 0);
+//   text-align: center;
+//   margin:50px;
+//   font-family: 'Dancing Script', cursive;
+  
+// }
+
+const heading2={
+color:"rgb(255, 0, 0)",
+textAlign:"center",
+margin:"50px",
+fontFamily: "'Dancing Script', cursive"
+
+
+
+}
+
+
 const curdate=new Date().toLocaleDateString();
 const curtime=new Date().toLocaleTimeString();
 
@@ -48,8 +68,16 @@ const img4="https://picsum.photos/280/300";
 
 ReactDOM.render(
   <>
-  <h2 className="heading">{`current date is ${curdate}`}</h2>
-  <h3 className="heading">{`current time is ${curtime}`}</h3>
+  <h2 className="heading1">{`current date is ${curdate}`}</h2>
+  <h3 style={{
+color:"rgb(255, 0, 0)",
+textAlign:"center",
+margin:"50px",
+fontFamily: "'Dancing Script', cursive"
+
+
+
+}}>{`current time is ${curtime}`}</h3>
 
   <div className="img_sec">
  <img src={img1} alt="random images"/>
