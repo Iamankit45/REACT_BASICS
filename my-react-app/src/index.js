@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
+
+
 
 // const s1="dark";
 // const s2="GAME OF THRONES";
@@ -42,10 +45,13 @@ const img1="https://picsum.photos/200/300";
 const img2="https://picsum.photos/210/300";
 const img3="https://picsum.photos/220/300";
 const img4="https://picsum.photos/280/300";
+
 ReactDOM.render(
   <>
-  <h2 contentEditable="true">{`current date is ${curdate}`}</h2>
-  <h3>{`current time is ${curtime}`}</h3>
+  <h2 className="heading">{`current date is ${curdate}`}</h2>
+  <h3 className="heading">{`current time is ${curtime}`}</h3>
+
+  <div className="img_sec">
  <img src={img1} alt="random images"/>
  <img src={img2} alt="random images"/>
  <img src={img3} alt="random images"/>
@@ -53,7 +59,7 @@ ReactDOM.render(
 <a href="https://picsum.photos/">
 <img src={img4} alt="random images"/>
 </a>
-
+</div>
 
   </>,document.getElementById("root")
   );
