@@ -69,16 +69,19 @@ const img4="https://picsum.photos/280/300";
 
 let currdate=new Date();
 let currtime=currdate.getHours();
-
 let greeting='';
+const cssStyle={};
 
 if (currtime>=1&&currtime<12) {
   
   greeting="Good Morning";
+  cssStyle.color='green';
 }else if(currtime>=12&&currtime<19){
   greeting="Good Afternoon";
+  cssStyle.color='yellow';
 }else{
   greeting="Good night";
+  cssStyle.color='blue';
 }
 
 
