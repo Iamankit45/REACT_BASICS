@@ -66,6 +66,24 @@ const img2="https://picsum.photos/210/300";
 const img3="https://picsum.photos/220/300";
 const img4="https://picsum.photos/280/300";
 
+
+let currdate=new Date();
+let currtime=currdate.getHours();
+
+let greeting='';
+
+if (currtime>=1&&currtime<12) {
+  
+  greeting="Good Morning";
+}else if(currtime>=12&&currtime<19){
+  greeting="Good Afternoon";
+}else{
+  greeting="Good night";
+}
+
+
+
+
 ReactDOM.render(
   <>
   <h2 className="heading1">{`current date is ${curdate}`}</h2>
@@ -80,6 +98,17 @@ ReactDOM.render(
 <img src={img4} alt="random images"/>
 </a>
 </div>
+
+
+
+
+<div>
+
+<h1>Hello sir ,{greeting}</h1>
+
+</div>
+
+
 
   </>,document.getElementById("root")
   );
