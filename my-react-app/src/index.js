@@ -107,7 +107,7 @@ ReactDOM.render(
 
 <div>
 
-<h1>Hello sir ,{greeting}</h1>
+<h1>Hello sir ,<span style={cssStyle}>{greeting}</span></h1>
 
 </div>
 
