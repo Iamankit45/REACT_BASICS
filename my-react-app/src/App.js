@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 import Heading from "./Heading";
 import List from "./List";
 import Para from "./Para";
-
+import List2 from "./List2";
 
 
 function App() {
@@ -83,8 +83,10 @@ function App() {
       
         <Heading/>
         <Para/>
+        <List2/>
       
         <List/>
+        <List2/>
         
       </div>
       
