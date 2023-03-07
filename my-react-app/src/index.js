@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import Heading from "./Heading";
 
 
 
@@ -89,6 +89,7 @@ if (currtime>=1&&currtime<12) {
 
 ReactDOM.render(
   <>
+  
   <h2 className="heading1">{`current date is ${curdate}`}</h2>
   <h3 style={heading2}>{`current time is ${curtime}`}</h3>
 
@@ -109,7 +110,13 @@ ReactDOM.render(
 
 <h1>Hello sir ,<span style={cssStyle}>{greeting}</span></h1>
 
+
+  <Heading/>
+  <Heading/>
+  <Heading/>
 </div>
+
+
 
 
 
