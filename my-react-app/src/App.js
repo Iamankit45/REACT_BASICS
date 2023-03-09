@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ReactDOM from "react-dom";
 import Heading from "./Heading";
-import List from "./List";
+import {List,name} from "./List";
 import Para from "./Para";
 import List2 from "./List2";
 
@@ -88,6 +88,7 @@ function App() {
         <List/>
         <List2/>
         
+        <h1>{name}</h1>
       </div>
       
       

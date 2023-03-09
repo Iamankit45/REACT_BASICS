@@ -18,4 +18,7 @@ import React from "react";
  );
  }
 
- export default List;
+
+ const name="ANKIT";
+ export {List,name};
+ 
