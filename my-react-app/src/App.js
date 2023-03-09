@@ -1,11 +1,11 @@
 import React from "react";
-import logo from './logo.svg';
+
 import './App.css';
 import ReactDOM from "react-dom";
 import Heading from "./Heading";
 import {List,name} from "./List";
 import Para from "./Para";
-import List2 from "./List2";
+import {List2,myname,myAge} from "./List2";
 
 
 function App() {
@@ -89,6 +89,9 @@ function App() {
         <List2/>
         
         <h1>{name}</h1>
+
+        <h2>{myname()}</h2>
+        <h3>{myAge()}</h3>
       </div>
       
       

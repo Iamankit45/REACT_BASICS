@@ -17,4 +17,15 @@ import React from "react";
  );
  }
 
- export default List2;
+function myname(){
+   const name ="rahul";
+    return name;
+}
+
+function myAge(){
+const age="9";
+    return age;
+}
+
+
+ export {List2,myname,myAge};
