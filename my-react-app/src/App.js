@@ -1,11 +1,13 @@
 import React from "react";
 
 import './App.css';
+import css from "./index.css";
 import ReactDOM from "react-dom";
 import Heading from "./Heading";
 import {List,name} from "./List";
 import Para from "./Para";
 import {List2,myname,myAge} from "./List2";
+import {add,sub,mul,div} from "./Calculator";
 
 
 function App() {
@@ -92,6 +94,12 @@ function App() {
 
         <h2>{myname()}</h2>
         <h3>{myAge()}</h3>
+        <div className="cal">
+        <h4>sum of 6 and 5 is :{add(6,5)}</h4>
+        <h4>difference between  6 and 5 is :{sub(6,5)}</h4>
+        <h4>product of 6 and 5 is :{mul(6,5)}</h4>
+        <h4>dividig result of 6 and 5 is :{div(6,5)}</h4>
+        </div>
       </div>
       
       
