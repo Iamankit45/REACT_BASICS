@@ -1,24 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
 
-// import App1 from "./App1";
-import App from "./App";
-
-
-
-ReactDOM.render(
-<>
-
-<App/>
-
-</>,document.getElementById("root"));
-
-
-
-
-
-
-// just learning map
 const oldArr=['ankit','rahul','ankush','rohit','kunal']
 
 console.log(oldArr[0]);
@@ -61,3 +41,9 @@ return `my name is ${cvalue.name} . my highest degree is ${cvalue.degree}`;
 
 });
 console.log(newData);
+
+
+
+
+
+
