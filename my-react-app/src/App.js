@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import ReactDOM from "react-dom";
 import Cards from "./Cards";
+import Sdata from "./Sdata";
 
 function app() {
   return ReactDOM.render(
@@ -11,7 +12,7 @@ function app() {
 
     </h1>
       <Cards
-        imgsrc="https://wallpapercave.com/wp/wp4056410.jpg"
+        imgsrc={Sdata[0].imgsrc}
         title="A NETFILX ORIGINAL SERIES"
         sname="DARK"
         link="https://www.netflix.com/in/title/80100172"
