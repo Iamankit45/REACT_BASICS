@@ -33,5 +33,11 @@ const Sdata = [
     title: "A NETFILX ORIGINAL SERIES",
     link: "https://www.netflix.com/in/title/80100172",
   },
+  {
+    sname: "DARK",
+    imgsrc: "https://wallpapercave.com/wp/wp4056410.jpg",
+    title: "A NETFILX ORIGINAL SERIES",
+    link: "https://www.netflix.com/in/title/80100172",
+  },
 ];
 export default Sdata;
