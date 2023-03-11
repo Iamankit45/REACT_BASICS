@@ -7,33 +7,37 @@ import Sdata from "./Sdata";
 function app() {
   return ReactDOM.render(
     <>
-
-    <h1 className="heading_style">List of Top 5 Netflix webseries
-
-    </h1>
+      <h1 className="heading_style">List of Top 5 Netflix webseries</h1>
       <Cards
         imgsrc={Sdata[0].imgsrc}
-        title="A NETFILX ORIGINAL SERIES"
-        sname="DARK"
-        link="https://www.netflix.com/in/title/80100172"
+        title={Sdata[0].title}
+        sname={Sdata[0].sname}
+        link={Sdata[0].link}
       />
       <Cards
-        imgsrc="https://wallpapercave.com/w/wp11827140.jpg"
-        title="A NETFILX ORIGINAL SERIES"
-        sname="StrangerThings"
-        link="https://www.netflix.com/in/title/80057281"
+        imgsrc={Sdata[1].imgsrc}
+        title={Sdata[1].title}
+        sname={Sdata[1].sname}
+        link={Sdata[1].link}
       />
       <Cards
-        imgsrc="https://wallpapercave.com/w/wp11645498.jpg"
-        title="A NETFILX ORIGINAL SERIES"
-        sname="WEDNESDAY"
-        link="https://www.netflix.com/in/title/80100172"
+        imgsrc={Sdata[2].imgsrc}
+        title={Sdata[2].title}
+        sname={Sdata[2].sname}
+        link={Sdata[2].link}
       />
       <Cards
-        imgsrc="https://wallpapercave.com/w/wp11632755.jpg"
-        title="A NETFILX ORIGINAL SERIES"
-        sname="ANTMAN"
-        link="https://www.netflix.com/in/title/80100172"
+        imgsrc={Sdata[3].imgsrc}
+        title={Sdata[3].title}
+        sname={Sdata[3].sname}
+        link={Sdata[3].link}
+      />
+
+      <Cards
+        imgsrc={Sdata[4].imgsrc}
+        title={Sdata[4].title}
+        sname={Sdata[4].sname}
+        link={Sdata[4].link}
       />
     </>,
     document.getElementById("root")
