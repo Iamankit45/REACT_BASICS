@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 
 
 
@@ -19,7 +19,7 @@ function Cards(props){
   <span className="card__category">{props.title}</span>
   <h3 className="card__title">{props.sname}</h3>
   
-  <a href={props.link}target="_blank">
+  <a href={props.link} target="_blank">
   
   <button> Watch NOW</button></a>
   </div>
