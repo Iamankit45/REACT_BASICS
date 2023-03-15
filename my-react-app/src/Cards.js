@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 // import ReactDOM from "react-dom";
-
+import Images from "./Images";
 
 
 function Cards(props){
@@ -9,11 +9,8 @@ function Cards(props){
     return(<div className="cards">
   
     <div className="card">
-  <img src={props.imgsrc}
   
-  alt="mypic" className="card__img"/>
-  
-
+<Images imgsrc={props.imgsrc}/>
   
   <div className="card__info">
   <span className="card__category">{props.title}</span>
