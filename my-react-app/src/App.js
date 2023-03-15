@@ -12,6 +12,7 @@ function app() {
       {Sdata.map((val, index) => {
         return (
           <Cards
+          key ={val.id}
             imgsrc={val.imgsrc}
             title={val.title}
             sname={val.sname}
